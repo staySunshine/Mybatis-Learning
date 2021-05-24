@@ -1,2 +1,24 @@
 # Mybatis-Learning
 本仓库仅用于记录本人学习笔记
+
+
+
+大纲如下：
+
+MybatisLearing01快速入门
+
+MybatisLearing02核心配置文件SqlConfig.xml
+
+MybatisLearing03映射配置文件SqlMapConfig.xml
+
+MybatisLearing04一对一映射查询
+
+MybatisLearing05一对多映射查询
+
+MybatisLearing06多对多映射查询
+
+MybatisLearing07Mybatis注解开发
+
+MybatisLearing08Mybatis缓存
+
+MybatisLearing09Mybatis插件
