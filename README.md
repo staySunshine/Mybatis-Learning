@@ -31,7 +31,8 @@ MybatisLearing08Mybatis缓存
 
 MybatisLearing09Mybatis插件
 
-| 文档名                   | 项目名           |
-| ------------------------ | ---------------- |
-| MybatisLearing01快速入门 | MybatisLearing01 |
+| 文档名                                | 项目名           |
+| ------------------------------------- | ---------------- |
+| MybatisLearing01快速入门              | MybatisLearing01 |
+| MybatisLearing02核心配置文件SqlConfig | MybatisLearing02 |
 
