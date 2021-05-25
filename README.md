@@ -17,7 +17,7 @@ MybatisLearing01快速入门
 
 MybatisLearing02核心配置文件SqlConfig.xml
 
-MybatisLearing03映射配置文件SqlMapConfig.xml
+MybatisLearing03映射配置文件SqlMapConfig.xml之CURD
 
 MybatisLearing04一对一映射查询
 
@@ -31,8 +31,9 @@ MybatisLearing08Mybatis缓存
 
 MybatisLearing09Mybatis插件
 
-| 文档名                                | 项目名           |
-| ------------------------------------- | ---------------- |
-| MybatisLearing01快速入门              | MybatisLearing01 |
-| MybatisLearing02核心配置文件SqlConfig | MybatisLearing02 |
+| 文档名                                             | 项目名           |
+| -------------------------------------------------- | ---------------- |
+| MybatisLearing01快速入门                           | MybatisLearing01 |
+| MybatisLearing02核心配置文件SqlConfig              | MybatisLearing02 |
+| MybatisLearing03映射配置文件SqlMapConfig.xml之CURD | MybatisLearing03 |
 

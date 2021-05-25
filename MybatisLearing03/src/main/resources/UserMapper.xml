@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="userMapper">
+    <!--namespace : 名称空间：与id组成sql的唯一标识
+        resultType： 表明返回值类型-->
+
+    <!--抽取sql片段-->
+    <sql id="selectUser">
+         select * from user
+    </sql>
+
+    <!--添加用户-->
+    <!--parameterType：参数类型-->
+    <insert id="addUser" parameterType="user" >
+        insert into user values(#{id},#{username})
+    </insert>
+
+    <!--修改-->
+    <update id="updateUser" parameterType="user">
+        update user set username = #{username} where id = #{id}
+    </update>
+
+    <!--删除-->
+    <delete id="deleteUser" parameterType="int">
+        delete from user where id = #{xxx}
+    </delete>
+
+    <!--查询-->
+    <select id="findAllIncludeSql" resultType="user">
+        <include refid="selectUser"></include>
+    </select>
+</mapper>

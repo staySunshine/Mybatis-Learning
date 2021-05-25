@@ -302,7 +302,7 @@ public class User {
 
 ![image-20210525144202024](assets/image-20210525144202024.png)
 
-## 入门至此结束，本项目相关代码位于
+## 本篇至此结束，本项目相关代码位于
 
 Github: [https://github.com/staySunshine/Mybatis-Learning](https://github.com/staySunshine/Mybatis-Learning)
 
