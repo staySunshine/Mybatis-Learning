@@ -1,12 +1,17 @@
 # MybatisLearing01快速入门
 
+Github: [https://github.com/staySunshine/Mybatis-Learning](https://github.com/staySunshine/Mybatis-Learning)
+
+Gitee:   [https://gitee.com/RoyalH/Mybatis-Learning](https://gitee.com/RoyalH/Mybatis-Learning)
+
 ## 目录
 
 1. 创建工程修改pom.xml
-2. 创建User实体类
-3. 编写映射文件UserMapper.xml
-4. 编写核心文件SqlMapConfig.xml
-5. 编写测试类
+2. 创建数据库表User
+3. 创建User实体类
+4. 编写映射文件UserMapper.xml
+5. 编写核心文件SqlMapConfig.xml
+6. 编写测试类
 
 1. ### 创建工程修改pom.xml
 
@@ -35,9 +40,13 @@
        </dependencies>
    ```
 
-   
+2. ### 创建数据库表User
 
-2. ### 创建User实体类
+   ![image-20210525114828204](assets/image-20210525114828204.png)
+
+   ![image-20210525114852984](assets/image-20210525114852984.png)
+
+3. ### 创建User实体类
 
    ```java
    public class User {
@@ -52,7 +61,7 @@
 
    
 
-3. ### 编写映射文件UserMapper.xml
+4. ### 编写映射文件UserMapper.xml
 
    ```xml
    <mapper namespace="userMapper">
@@ -70,7 +79,7 @@
 
    
 
-4. ### 编写核心文件SqlMapConfig.xml
+5. ### 编写核心文件SqlMapConfig.xml
 
    ```xml
    <!--environments:运行环境-->
@@ -95,7 +104,7 @@
    ```
    
 
-5. ### 编写测试类
+6. ### 编写测试类
 
 ```java
     @Test
@@ -117,3 +126,8 @@
     }
 ```
 
+## 入门至此结束
+
+Github: [https://github.com/staySunshine/Mybatis-Learning](https://github.com/staySunshine/Mybatis-Learning)
+
+Gitee:   [https://gitee.com/RoyalH/Mybatis-Learning](https://gitee.com/RoyalH/Mybatis-Learning)
