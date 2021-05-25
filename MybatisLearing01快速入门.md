@@ -42,9 +42,17 @@ Gitee:   [https://gitee.com/RoyalH/Mybatis-Learning](https://gitee.com/RoyalH/My
 
 2. ### 创建数据库表User
 
+   表结构如下
+
    ![image-20210525114828204](assets/image-20210525114828204.png)
 
+   数据如下
+
    ![image-20210525114852984](assets/image-20210525114852984.png)
+
+   sql文件位于[https://github.com/staySunshine/Mybatis-Learning/tree/main/MybatisLearing01/src/main/resources/sql](https://github.com/staySunshine/Mybatis-Learning/tree/main/MybatisLearing01/src/main/resources/sql)
+
+   
 
 3. ### 创建User实体类
 
@@ -126,7 +134,11 @@ Gitee:   [https://gitee.com/RoyalH/Mybatis-Learning](https://gitee.com/RoyalH/My
     }
 ```
 
-## 入门至此结束
+### 项目结构如下，可供参考：
+
+![image-20210525115248795](assets/image-20210525115248795.png)
+
+## 入门至此结束，本项目相关代码位于
 
 Github: [https://github.com/staySunshine/Mybatis-Learning](https://github.com/staySunshine/Mybatis-Learning)
 
