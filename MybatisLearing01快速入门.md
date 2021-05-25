@@ -6,12 +6,12 @@ Gitee:   [https://gitee.com/RoyalH/Mybatis-Learning](https://gitee.com/RoyalH/My
 
 ## 目录
 
-1. 创建工程修改pom.xml
-2. 创建数据库表User
-3. 创建User实体类
-4. 编写映射文件UserMapper.xml
-5. 编写核心文件SqlMapConfig.xml
-6. 编写测试类
+- 创建工程修改pom.xml
+- 创建数据库表User
+- 创建User实体类
+- 编写映射文件UserMapper.xml
+- 编写核心文件SqlMapConfig.xml
+- 编写测试类
 
 1. ### 创建工程修改pom.xml
 
